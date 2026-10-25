@@ -1,0 +1,20 @@
+{
+  "name": "cokko",
+  "interface": {
+    "displayName": "可咔 Cokko"
+  },
+  "plugins": [
+    {
+      "name": "cokko",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cokko"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "cokko",
+  "version": "1.0.0",
+  "description": "在 Claude Code 里用可咔的无限画布生成图片、视频和成片，或把故事交给导演台 Agent 拍成片。",
+  "author": {
+    "name": "启辰视界（天津）科技有限公司",
+    "url": "https://cokkotv.com"
+  },
+  "homepage": "https://cokkotv.com/zh/plugin",
+  "repository": "https://github.com/qcvision-ai/cokko-plugin",
+  "license": "MIT",
+  "keywords": ["video", "image", "canvas", "seedance", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": {
+    "cokko": {
+      "type": "http",
+      "url": "https://cokkotv.com/mcp"
+    }
+  }
+}

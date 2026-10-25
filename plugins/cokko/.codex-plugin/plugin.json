@@ -1,0 +1,30 @@
+{
+  "name": "cokko",
+  "version": "1.0.0",
+  "description": "在 Codex 里用可咔做视觉创作。",
+  "author": {
+    "name": "启辰视界（天津）科技有限公司",
+    "url": "https://cokkotv.com"
+  },
+  "homepage": "https://cokkotv.com/zh/plugin",
+  "repository": "https://github.com/qcvision-ai/cokko-plugin",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "可咔 Cokko",
+    "shortDescription": "可咔无限画布、生成与导演台",
+    "longDescription": "在 Codex 里直接用可咔创作：在你自己的无限画布上生成图片、视频、配音和配乐，接参考图保持人物一致，逐帧拉片、片段重拍、剪辑导出成片；也可以把完整故事交给可咔的导演台 Agent，从剧本、形象、分段、3D 导演台一路拍到成片。所有结果都留在画布上，随时回到网页接着改。连接你的可咔账号即可开始。",
+    "developerName": "启辰视界（天津）科技有限公司",
+    "category": "Creativity",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "brandColor": "#F2784B",
+    "websiteURL": "https://cokkotv.com",
+    "logo": "./assets/cokko-icon.png",
+    "composerIcon": "./assets/cokko-icon.png",
+    "defaultPrompt": [
+      "查看我在可咔的画布项目",
+      "用可咔把这个故事拍成一段 30 秒的短片",
+      "参考这个视频的镜头和节奏，用可咔复刻一版"
+    ]
+  },
+  "mcpServers": "./.codex-mcp.json"
+}

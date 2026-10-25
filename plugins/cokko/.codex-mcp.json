@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "cokko": {
+      "type": "http",
+      "url": "https://cokkotv.com/mcp",
+      "tool_timeout_sec": 1200
+    }
+  }
+}

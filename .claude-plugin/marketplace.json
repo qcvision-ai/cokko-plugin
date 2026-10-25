@@ -1,0 +1,18 @@
+{
+  "name": "cokko",
+  "owner": {
+    "name": "启辰视界（天津）科技有限公司",
+    "url": "https://cokkotv.com"
+  },
+  "metadata": {
+    "description": "可咔 Cokko 官方插件：让 Agent 在可咔无限画布上生成图片、视频和成片。",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cokko",
+      "source": "./plugins/cokko",
+      "description": "在 Claude Code 里用可咔的无限画布生成图片、视频和成片。"
+    }
+  ]
+}
