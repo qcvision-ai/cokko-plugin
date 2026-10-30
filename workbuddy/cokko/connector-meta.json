@@ -1,0 +1,22 @@
+{
+  "name": "可咔",
+  "name_zh": "可咔",
+  "name_en": "Cokko",
+  "description": "在你的可咔无限画布上生成图片、视频、配音和配乐并剪成片，也可以把故事交给导演台 Agent 拍成片。",
+  "description_zh": "在你的可咔无限画布上生成图片、视频、配音和配乐并剪成片，也可以把故事交给导演台 Agent 拍成片。",
+  "description_en": "Make pictures, video, voice and music on your Cokko canvas and cut them into a film, or hand a story to the director agent.",
+  "source": "cokko",
+  "type": "mcp",
+  "version": "1.0.0",
+  "examples_zh": [
+    "在可咔新建一个画布，用这张产品图做一条 15 秒的竖屏产品短视频",
+    "参考这条视频的镜头和节奏，用我的人物复刻一版",
+    "把这个故事交给可咔导演台，拍成一分钟的短片"
+  ],
+  "examples_en": [
+    "Make a 15-second vertical product video on Cokko from this product photo",
+    "Remake this clip's shots and pacing with my own character",
+    "Hand this story to the Cokko director and film it as a one-minute short"
+  ],
+  "minWorkbuddyVersion": "4.24.0"
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "cokko": {
+      "type": "streamableHttp",
+      "url": "https://cokkotv.com/mcp",
+      "timeout": 1200000
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # 可咔 Cokko Plugin
 
-让 Codex、Claude Code 等 Agent 直接在你的可咔（cokkotv.com）无限画布上创作：
+让 Codex、Claude Code、WorkBuddy 等 Agent 直接在你的可咔（cokkotv.com）无限画布上创作：
 - 生成图片、视频、配音和配乐；
 - 用参考图保持人物和产品一致；
 - 逐帧拉片、片段重拍；
@@ -32,6 +32,24 @@ claude plugin install cokko@cokko
 ```bash
 claude mcp add --transport http cokko https://cokkotv.com/mcp
 ```
+
+**WorkBuddy**
+
+在「连接器 → 自定义连接器」点「配置 MCP」，打开 `~/.workbuddy/mcp.json`（文件名前面没有点），把下面的 `cokko` 合并进 `mcpServers` 后保存：
+
+```json
+{
+  "mcpServers": {
+    "cokko": {
+      "type": "streamable-http",
+      "url": "https://cokkotv.com/mcp",
+      "timeout": 1200000
+    }
+  }
+}
+```
+
+不用填 `headers`：在「专家·技能·连接器」里信任并打开 `cokko`，新建任务后 WorkBuddy 会打开浏览器，请你登录可咔并授权。`workbuddy/cokko` 是提交到 WorkBuddy 连接器市场的连接器包（元信息、MCP 配置、图标和随包技能；技能正文与 `plugins/cokko/skills` 相同，只多了 WorkBuddy 技能市场要求的展示名、中英文介绍、示例、版本和作者，改动时两处一起改）。打包上传时压缩整个 `workbuddy/cokko` 目录。
 
 **其他支持 MCP 的 Agent**：把 `https://cokkotv.com/mcp` 添加为远程 MCP 服务器。
 
